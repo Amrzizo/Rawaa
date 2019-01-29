@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "755661454356",
+    "firebase_url": "https://rawaa-5675e.firebaseio.com",
+    "project_id": "rawaa-5675e",
+    "storage_bucket": "rawaa-5675e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755661454356:android:7ffdbada8179890f",
+        "android_client_info": {
+          "package_name": "rwaa.code.com.rawaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755661454356-avfv8dh9que4ladkivj4iqfhqg1134sm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rwaa.code.com.rawaa",
+            "certificate_hash": "f0aef069b6db621594fb0fe98ba8391825453669"
+          }
+        },
+        {
+          "client_id": "755661454356-5iirtaovsp3hlbi0tllcm3l5e2o9sgaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNngIqDg8gqZaPwd7OjL9jgenJJluUhAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755661454356-5iirtaovsp3hlbi0tllcm3l5e2o9sgaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

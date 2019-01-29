@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_transparent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/place_details_icon"
+                android:id="@+id/imageView3"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/str_address_details"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+            <View
+                    android:layout_width="1.5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/dark_blue"
+                    android:layout_height="match_parent"
+                    android:id="@+id/view2"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:id="@+id/location_details_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="start"
+                    android:layout_marginEnd="15dp"
+                    android:theme="@style/EditTextTheme"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                        android:id="@+id/location_details_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        style="@style/EditTextTheme"
+                        android:hint="@string/str_enter_address_name"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    app:srcCompat="@mipmap/building_number"
+                    android:id="@+id/imageView4"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:text="@string/btn_ok_txt"
+                    android:textColor="@color/white"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_grident"
+                    android:id="@+id/ok_button"
+            />
+            <Button
+                    android:text="@string/btn_Cancel_txt"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_grident"
+                    android:id="@+id/cancel_button"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

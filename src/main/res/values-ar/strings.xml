@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رواء</string>
+    <string name="STR_RETROFIT_NO_RESPONSE_TXT">لا يوجد رد من الخادم</string>
+    <string name="alert_loading_contents">جاري التحميل ...</string>
+
+    <string name="str_arabic">العربية</string>
+    <string name="str_english">English</string>
+    <string name="str_permission_necessary">أذن مطلوب</string>
+    <string name="str_save">حفظ</string>
+    <string name="str_camera">أذن الكاميرا مطلوب</string>
+    <string name="str_phone_state">أذن حالة الهاتف مطلوب</string>
+    <string name="str_external_storage">أذن الذاكرة الخارجية مطلوب</string>
+    <string name="str_location_access">أذن الحصول على مكان الهاتف مطلوب</string>
+    <string name="str_insurance_info_txt">نحن نتأكد من تقديم خدمات فعالة تسعى إلى تحقيق رضا مرضانا ، ونتيجة لذلك اكتسبنا ثقة قيمة أكثر من 100 ألف مريض تم علاجهم في عيادة سمايل ستارز لطب الأسنان. إن العناية بالأسنان والأدوات الصحية وأطباء الأسنان المؤهلين هي المعايير الأساسية التي نتبعها للحفاظ على المستوى الأمثل من علاج الأسنان لمرضانا.</string>
+
+
+    <string name="logout_message">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="logout">خروج</string>
+    <string name="str_connection_error">لا يمكن الوصول للخادم</string>
+    <string name="str_error"> خطأ : </string>
+    <string name="btn_ok_txt">موافق</string>
+    <string name="btn_Cancel_txt">إلغاء</string>
+    <string name="create_account">ليس تملك حساب ؟ </string>
+
+    <string name="login_user_error">من فضلك ادخل الرقم</string>
+    <string name="login_password_error">من فضلك ادخل الرقم السري </string>
+    <string name="str_login_password_hint_txt">أدخل كلمة المرور</string>
+    <string name="str_login_button_txt">تسجيل الدخول</string>
+    <string name="str_login_user_name_txt">أدخل رقم هاتفك</string>
+    <string name="str_login_register_txt">سجل الأن</string>
+    <string name="str_login_forgot_password_txt">هل نسيت كبمة السر</string>
+    <string name="str_login_ksa_key_txt">+966</string>
+    <string name="str_client_txt">كـ عميل</string>
+    <string name="str_driver_txt">كـ سائق</string>
+    <string name="str_register_button_txt">تسجيل</string>
+    <string name="register_error_message_txt">من فضلك ادخل رقم التليفون </string>
+    <string name="register_correct_message_txt">من فضلك ادخل رقم التليفون يطريقة صحيحة</string>
+    <string name="str_next_button_txt">التالى</string>
+    <string name="str_code_verify_hint_txt">سيتم ارسال الكود خلال 60 ثانية</string>
+    <string name="str_code_sent_txt">تم ارسال الكود الى رقم</string>
+    <string name="str_enter_code_txt">أدخل كود التفعيل</string>
+    <string name="str_please_try_agin_txt">من فضلك حاول مرة اخري</string>
+    <string name="str_code_error_txt">كود غير صحيح</string>
+    <string name="str_sign_up_completed_txt">تم التسجيل بنجاح</string>
+    <string name="str_home_map_locating_message">جارى تحديد المكان ...</string>
+    <string name="str_home_map_order_now">أطلب الأن</string>
+    <string name="str_map_search_hint">ابحث عن عنوان او مكان</string>
+    <string name="str_gps_setting_txt"> GPS is settings</string>
+    <string name="str_gps_setting_message_txt"> تحديد الاماكن غير مفعل, هل تريد الذهاب الى الضبط</string>
+    <string name="str_gps_setting_required_txt">لم يتم السماح بإذن معلومات الموقع.</string>
+    <string name="str_gps_setting_required_message_txt"> يحتاج هذا التطبيق للسماح باستخدام معلومات الموقع.</string>
+
+    <string name="str_side_menu_log_out_txt">تسجيل الخروج </string>
+    <string name="str_side_menu_status_txt">الحالة</string>
+    <string name="str_side_menu_home_txt">الرئيسية</string>
+    <string name="str_side_menu_wallet_txt">محفظتى</string>
+    <string name="str_side_menu_my_profile_txt">الملف الشخصى</string>
+    <string name="str_side_menu_my_orders_txt">طلباتى</string>
+    <string name="str_side_menu_my_locations_txt">مواقعى</string>
+    <string name="str_side_menu_my_rates_txt">تقيماتى</string>
+    <string name="str_side_menu_about_txt">من نحن</string>
+    <string name="str_side_menu_call_us_txt">إتصل بنا</string>
+    <string name="str_side_menu_terms_and_conditions_txt">شروط الإستخدام</string>
+    <string name="str_map_button_save">حفظ</string>
+
+    <string name="str_map_save_add_text">جديد</string>
+    <string name="str_map_save_home_text">المنزل</string>
+    <string name="str_map_save_work_text">العمل</string>
+
+    <string name="str_choose_name">قم بإختيار اسم للمكان</string>
+    <string name="str_enter_name_hint">أدخل اسم المكان</string>
+    <string name="str_address_details">تفاصيل المكان</string>
+    <string name="str_enter_address_name">رقم العمارة ...</string>
+    <string name="str_bottles_number">عدد الدابات</string>
+
+    <string name="str_spinner_distance">المسافة</string>
+    <string name="str_spinner_price">السعر</string>
+    <string name="str_bottles_number_txt">عدد الدابات</string>
+    <string name="str_bottles_number_message_txt">برجاء العلم لا يمكن اتمام الطلب باقل من </string>
+    <string name="str_confirm">تأكيد</string>
+    <string name="str_bottle_one">دابة</string>
+    <string name="str_bottle_Many">دابات</string>
+    <string name="str_saudi_rial">ر.س</string>
+    <string name="str_distance_kilo">كيلو منر</string>
+    <string name="str_distance_meter">متر</string>
+    <string name="str_order_by">ترتيب بواسطة</string>
+    <string name="str_choose_driver">اختار السائق</string>
+    <string name="str_validation_error_message">من فضلك ادخل قيمة صالحة</string>
+
+</resources>

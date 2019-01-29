@@ -1,0 +1,143 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/toolBarStyle</item>
+        <item name="android:typeface">serif</item>
+
+        <!--<item name="android:buttonStyle">@style/button_style</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.coloredActionBar" parent="AppTheme">
+        <item name="android:background">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorPrimary">@color/header_text_color</item>
+        <!--<item name="android:buttonStyle">@style/button_style</item>-->
+    </style>
+
+    <style name="AppTheme.transparent" parent="AppTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:background">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/toolBarStyle</item>
+        <item name="android:textColorPrimary">@color/header_text_color</item>
+
+        <!--<item name="android:buttonStyle">@style/button_style</item>-->
+    </style>
+
+    <style name="toolBarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@android:color/transparent</item>
+    </style>
+
+    <style name="ThemeActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@null</item>
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+    </style>
+
+    <style name="header_action_style" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">@dimen/header_action_text_size</item>
+        <item name="android:textColor">@color/header_text_color</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+        <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
+    <style name="button_style" parent="Widget.AppCompat.Button">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@drawable/button_text_color_selector</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+        <item name="colorButtonNormal">@drawable/button_bg</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:height">@dimen/button_min_height</item>
+    </style>
+
+    <style name="DialogActivityStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/dialog_background</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:ellipsize">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="android:windowTitleSize">0dp</item>
+        <item name="textAllCaps">false</item>
+        <!-- <item name="android:buttonStyleToggle">@style/Widget.Button.Toggle</item> -->
+        <item name="android:textColorSecondaryInverse">@android:color/white</item>
+        <item name="android:buttonStyle">@style/button_style</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="textInputLayoutStyle">
+        <item name="colorAccent">@color/progress_loading_color</item>
+    </style>
+
+    <style name="dialog_title_style" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/def_medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/register_text_color</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/register_text_color</item>
+    </style>
+
+
+    <style name="DialogFragmentAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="windowMinWidthMajor">90%</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorActivatedHighlight">@color/black_transparent</item>
+        <item name="windowMinWidthMinor">95%</item>
+    </style>
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/header_text_color</item>
+        <item name="colorControlActivated">@color/header_text_color</item>
+        <item name="colorControlHighlight">@color/header_text_color</item>
+    </style>
+</resources>

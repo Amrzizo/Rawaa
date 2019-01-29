@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Rawaa</string>
+    <string name="STR_RETROFIT_NO_RESPONSE_TXT">No response from server</string>
+    <string name="alert_loading_contents">Loading ...</string>
+
+    <string name="str_arabic">العربية</string>
+    <string name="str_english">English</string>
+    <string name="str_permission_necessary">Permission necessary</string>
+    <string name="str_camera">Camera permission is required</string>
+    <string name="str_phone_state">Phone State permission is required</string>
+    <string name="str_location_access">Phone Location Access is required</string>
+    <string name="str_external_storage">External Storage permission is required</string>
+    <string name="str_insurance_info_txt">We make sure to offer efficient services seeking our patients’ satisfaction
+        and as a result we have gained the valuable trust of more than 100 thousand patients who have been treated at
+        Smile Stars Dental clinic. Dental care, hygienic tools, and qualified dentists are our core criteria that we
+        follow to maintain the ultimate level of dental treatment to our patients
+    </string>
+
+    <string name="logout_message">Are you sure you want to Logout?</string>
+    <string name="logout">Logout</string>
+    <string name="str_connection_error">can\'t connect to server</string>
+    <string name="str_error">Error:</string>
+    <string name="btn_ok_txt">Ok</string>
+    <string name="btn_Cancel_txt">Cancel</string>
+    <string name="create_account">Don\'t have an account?</string>
+    <string name="login_user_error">Please Enter Username or Email</string>
+    <string name="login_password_error">Please Enter Password</string>
+    <string name="str_login_password_hint_txt">Enter Password</string>
+    <string name="str_login_button_txt">Login</string>
+    <string name="str_login_user_name_txt">Enter Mobile Number</string>
+    <string name="str_login_register_txt">Register Now</string>
+    <string name="str_login_forgot_password_txt">Forgot Password</string>
+    <string name="str_login_ksa_key_txt">+966</string>
+    <string name="str_client_txt">Client</string>
+    <string name="str_driver_txt">Driver</string>
+    <string name="str_register_button_txt">Register</string>
+    <string name="register_error_message_txt">Please enter mobile number</string>
+    <string name="register_correct_message_txt">Please enter mobile number correctly</string>
+    <string name="str_next_button_txt">Next</string>
+    <string name="str_code_verify_hint_txt">Code will be sent in 60 seconds</string>
+    <string name="str_code_sent_txt">Code is sent to Mobile number</string>
+    <string name="str_enter_code_txt">Enter activation code</string>
+    <string name="str_please_try_agin_txt">Please try again</string>
+    <string name="str_code_error_txt">Invalid Code</string>
+    <string name="str_sign_up_completed_txt">SignUp Completed Successfully</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="str_home_map_locating_message">getting location ...</string>
+    <string name="str_home_map_order_now">Order Now</string>
+    <string name="str_map_search_hint">  Search address or place</string>
+    <string name="str_gps_setting_txt">إعدادات تحديد المكان</string>
+    <string name="str_gps_setting_message_txt"> GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="str_gps_setting_required_txt">Gps is not enabled</string>
+    <string name="str_gps_setting_required_message_txt"> This App need GPS Information</string>
+
+
+    <!-- side menu strings -->
+    <string name="str_side_menu_log_out_txt">LogOut</string>
+    <string name="str_side_menu_status_txt">Status</string>
+    <string name="str_side_menu_home_txt">Home</string>
+    <string name="str_side_menu_wallet_txt">My Wallet</string>
+    <string name="str_side_menu_my_profile_txt">My Profile</string>
+    <string name="str_side_menu_my_orders_txt">My Order</string>
+    <string name="str_side_menu_my_locations_txt">My Locations</string>
+    <string name="str_side_menu_my_rates_txt">My Rates</string>
+    <string name="str_side_menu_about_txt">About Us</string>
+    <string name="str_side_menu_call_us_txt">Call Us</string>
+    <string name="str_side_menu_terms_and_conditions_txt">Terms And Conditions</string>
+    <string name="str_map_button_save">Save</string>
+    <string name="str_map_save_add_text">New</string>
+    <string name="str_map_save_home_text">Home</string>
+    <string name="str_map_save_work_text">Work</string>
+    <string name="str_choose_name">Enter place name </string>
+    <string name="str_enter_name_hint">Enter place name</string>
+
+    <string name="str_address_details">Address Details</string>
+    <string name="str_enter_address_name">Building Number ...</string>
+    <string name="str_bottles_number">Bottles Num</string>
+    <string name="str_spinner_distance">Distance</string>
+    <string name="str_spinner_price">Price</string>
+    <string name="str_bottles_number_txt">Bottles Numbers</string>
+    <string name="str_bottles_number_message_txt">Order won\'t completed with less than</string>
+    <string name="str_confirm">Confirm</string>
+    <string name="str_bottle_one">Bottle</string>
+    <string name="str_bottle_Many">Bottles</string>
+    <string name="str_saudi_rial">R.S</string>
+    <string name="str_distance_kilo">KiloMeter</string>
+    <string name="str_distance_meter">Meter</string>
+    <string name="str_order_by">OrderBy</string>
+    <string name="str_choose_driver">Choose Driver</string>
+    <string name="str_validation_error_message">Please Enter valid value</string>
+
+
+
+</resources>

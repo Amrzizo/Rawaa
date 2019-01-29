@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="dialog_background">#ffffff</color>
+    <color name="progress_loading_color">#8ADBDF</color>
+    <color name="custom_dialog_body_text">#555</color>
+    <color name="button_disable">#cfcfcf</color>
+    <color name="button_enable">#eb9300</color>
+    <color name="button_disable_text_color">#878787</color>
+    <color name="button_text_color">#016891</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_transparent">#60000000</color>
+    <color name="header_text_color">#555</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#07fc03</color>
+    <color name="login_text_color">#FF0B698E</color>
+    <color name="register_text_color">#2874BA</color>
+    <color name="dark_blue">#2874BA</color>
+    <color name="map_bottom_color">#939393</color>
+    <color name="map_bottom_color2">#262626</color>
+    <color name="light_grident_blue">#0CABD9</color>
+</resources>

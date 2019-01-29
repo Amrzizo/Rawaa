@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/dialog_background"
+    android:padding="@dimen/progress_dialog_padding">
+
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/progress_wheel"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        wheel:matProg_barColor="@color/progress_loading_color"
+        wheel:matProg_progressIndeterminate="true" />
+
+    <rwaa.code.com.rawaa.views.customeviews.CustomTextView
+        android:id="@+id/loading_text"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/alert_loading_contents"
+        android:textColor="@color/custom_dialog_body_text"
+        android:textSize="@dimen/list_text_size" />
+
+</LinearLayout>

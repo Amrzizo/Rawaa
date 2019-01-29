@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/black_transparent"
+        android:paddingBottom="15dp"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:paddingBottom="15dp"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/close"
+                android:id="@+id/close_view"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_circle_with_shadow"
+                android:padding="3dp"
+                android:layout_marginTop="55dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginBottom="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/add_linear" android:layout_marginStart="16dp"
+                app:layout_constraintStart_toStartOf="parent">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    app:srcCompat="@mipmap/add_new"
+                    android:id="@+id/add_image"/>
+
+        </LinearLayout>
+
+        <TextView
+                android:text="@string/str_map_save_add_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_text"
+                android:textStyle="bold"
+                android:textColor="@color/header_text_color"
+                app:layout_constraintTop_toBottomOf="@+id/add_linear"
+                app:layout_constraintStart_toStartOf="@+id/add_linear"
+                app:layout_constraintEnd_toEndOf="@+id/add_linear"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        <View
+                android:layout_width="2dp"
+                android:layout_height="0dp"
+                android:id="@+id/view"
+                android:background="@color/button_disable"
+                app:layout_constraintTop_toTopOf="@+id/add_linear"
+                app:layout_constraintBottom_toBottomOf="@+id/add_text"
+                app:layout_constraintStart_toEndOf="@+id/add_linear" android:layout_marginStart="24dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_circle_with_shadow"
+                android:padding="3dp"
+                app:layout_constraintBottom_toBottomOf="@+id/add_linear"
+                app:layout_constraintTop_toTopOf="@+id/add_linear" android:id="@+id/home_Linear"
+                app:layout_constraintStart_toEndOf="@+id/view" android:layout_marginStart="32dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:srcCompat="@mipmap/add_home" android:id="@+id/imageView5"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+                android:text="@string/str_map_save_home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_text"
+                android:textStyle="bold"
+                android:textColor="@color/header_text_color"
+                app:layout_constraintStart_toStartOf="@+id/home_Linear"
+                app:layout_constraintBottom_toBottomOf="@+id/add_text"
+                app:layout_constraintEnd_toEndOf="@+id/home_Linear"
+                app:layout_constraintTop_toBottomOf="@+id/home_Linear"
+                android:layout_marginTop="8dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_circle_with_shadow"
+                android:padding="3dp"
+                app:layout_constraintBottom_toBottomOf="@+id/home_Linear"
+                android:id="@+id/work_linear"
+                app:layout_constraintStart_toEndOf="@+id/home_Linear"
+                android:layout_marginStart="32dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@mipmap/add_work"
+                    android:id="@+id/add_work_image"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+                android:text="@string/str_map_save_work_text"
+                android:layout_width="0dp"
+                android:textColor="@color/header_text_color"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/work_txt"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/work_linear"
+                app:layout_constraintBottom_toBottomOf="@+id/home_text"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/work_linear"
+                app:layout_constraintStart_toStartOf="@+id/work_linear"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
